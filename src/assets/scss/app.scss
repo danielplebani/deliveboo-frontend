@@ -1,0 +1,59 @@
+@use "_variables.scss" as *;
+@use "/node_modules/bootstrap/scss/bootstrap.scss";
+
+* {
+  font-family: "Nunito", sans-serif;
+}
+/* section home tipi di cucina */
+a {
+  text-decoration: none;
+  color: $deliv-black;
+}
+
+.checkbox_elements {
+  background-color: $deliv-elements;
+  border: 2px solid $deliv-primary;
+  box-shadow: 0px 15px 10px -10px rgba(0, 0, 0, 0.6);
+  border-radius: 5%;
+  color: $deliv-light;
+  transition: all 0.3s ease;
+}
+.button_primary {
+  background-color: $deliv-primary;
+  border: 2px solid $deliv-elements;
+  padding: 5px;
+  border-radius: 5%;
+  color: $deliv-black;
+  transition: all 0.3s ease;
+}
+
+.hover_effect:hover {
+  color: $deliv-primary;
+}
+.bor_color {
+  border: 2px solid $deliv-primary;
+  box-shadow: 0px 15px 10px -10px rgba(0, 0, 0, 0.6);
+  border-radius: 5%;
+}
+.img_check:hover {
+  transform: scale(1.2);
+}
+.checkbox_elements:hover {
+  transform: scale(1.2);
+}
+.button_primary:hover {
+  transform: scale(1.2);
+}
+.form-check-input:checked {
+  border-color: $deliv-dark !important;
+  background-color: $deliv-primary !important;
+}
+.bg_color {
+  background-color: $deliv-primary;
+  padding: 7px 10px;
+  border: none;
+}
+// *************FOOTER***************
+footer {
+  background-color: $deliv-primary;
+}
